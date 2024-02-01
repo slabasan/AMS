@@ -142,6 +142,7 @@ void random_init(mfem::Array<T> &arr)
 // TODO: Gather arguments in a struct.
 // TODO: Move parsing of arguments in main.
 template <typename TypeValue>
+PERFFASPECT()
 int run(const char *device_name,
         const char *db_type,
         const char *uq_policy_opt,
